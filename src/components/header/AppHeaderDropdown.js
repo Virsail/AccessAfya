@@ -9,5 +9,4 @@ import {
     CDropdownMenu,
     CDropdownToggle,
   } from '@coreui/react'
-
-  
+  import CIcon from '@coreui/icons-react'
