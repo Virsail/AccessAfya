@@ -31,7 +31,6 @@
     "redux": "4.0.5",
     "simplebar-react": "^2.3.3"
   },
- 
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -62,7 +61,6 @@
       "not dead",
       "not op_mini all"
     ],
-  
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
