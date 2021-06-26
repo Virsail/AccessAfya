@@ -50,9 +50,7 @@
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}",
-      "!**/*index.js",
-      "!src/serviceWorker.js",
-      "!src/polyfill.js"
+      "!**/*index.js"
     ]
   },
   "browserslist": {
