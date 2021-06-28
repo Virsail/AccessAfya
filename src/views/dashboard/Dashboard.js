@@ -40,16 +40,13 @@ const Dashboard = () => {
           <CRow>
             <CCol sm="5">
               <h4 id="traffic" className="card-title mb-0">
-                Traffic
+                Monitoring period
               </h4>
               <div className="small text-medium-emphasis">January - July 2021</div>
             </CCol>
             <CCol sm="7" className="d-none d-md-block">
-              <CButton color="primary" className="float-end">
-                <CIcon name="cil-cloud-download" />
-              </CButton>
               <CButtonGroup className="float-end me-3">
-                {['Day', 'Month', 'Year'].map((value) => (
+                {['Day', 'Week', 'Month', 'Year'].map((value) => (
                   <CButton
                     color="outline-secondary"
                     key={value}
@@ -62,121 +59,9 @@ const Dashboard = () => {
               </CButtonGroup>
             </CCol>
           </CRow>
-          <CChartLine
-            style={{ height: '300px', marginTop: '40px' }}
-            data={{
-              labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-              datasets: [
-                {
-                  label: 'My First dataset',
-                  backgroundColor: hexToRgba(getStyle('--cui-info'), 10),
-                  borderColor: getStyle('--cui-info'),
-                  pointHoverBackgroundColor: getStyle('--cui-info'),
-                  borderWidth: 2,
-                  data: [
-                    random(50, 200),
-                    random(50, 200),
-                    random(50, 200),
-                    random(50, 200),
-                    random(50, 200),
-                    random(50, 200),
-                    random(50, 200),
-                  ],
-                  fill: true,
-                },
-                {
-                  label: 'My Second dataset',
-                  backgroundColor: 'transparent',
-                  borderColor: getStyle('--cui-success'),
-                  pointHoverBackgroundColor: getStyle('--cui-success'),
-                  borderWidth: 2,
-                  data: [
-                    random(50, 200),
-                    random(50, 200),
-                    random(50, 200),
-                    random(50, 200),
-                    random(50, 200),
-                    random(50, 200),
-                    random(50, 200),
-                  ],
-                },
-                {
-                  label: 'My Third dataset',
-                  backgroundColor: 'transparent',
-                  borderColor: getStyle('--cui-danger'),
-                  pointHoverBackgroundColor: getStyle('--cui-danger'),
-                  borderWidth: 1,
-                  borderDash: [8, 5],
-                  data: [65, 65, 65, 65, 65, 65, 65],
-                },
-              ],
-            }}
-            options={{
-              maintainAspectRatio: false,
-              plugins: {
-                legend: {
-                  display: false,
-                },
-              },
-              scales: {
-                x: {
-                  grid: {
-                    drawOnChartArea: false,
-                  },
-                },
-                y: {
-                  ticks: {
-                    beginAtZero: true,
-                    maxTicksLimit: 5,
-                    stepSize: Math.ceil(250 / 5),
-                    max: 250,
-                  },
-                },
-              },
-              elements: {
-                line: {
-                  tension: 0.4,
-                },
-                point: {
-                  radius: 0,
-                  hitRadius: 10,
-                  hoverRadius: 4,
-                  hoverBorderWidth: 3,
-                },
-              },
-            }}
-          />
+          
         </CCardBody>
-        <CCardFooter>
-          <CRow className="text-center">
-            <CCol md sm="12" className="mb-sm-2 mb-0">
-              <div className="text-medium-emphasis">Visits</div>
-              <strong>29.703 Users (40%)</strong>
-              <CProgress thin className="mt-2" precision={1} color="success" value={40} />
-            </CCol>
-            <CCol md sm="12" className="mb-sm-2 mb-0">
-              <div className="text-medium-emphasis">Unique</div>
-              <strong>24.093 Users (20%)</strong>
-              <CProgress thin className="mt-2" precision={1} color="info" value={40} />
-            </CCol>
-            <CCol md sm="12" className="mb-sm-2 mb-0">
-              <div className="text-medium-emphasis">Pageviews</div>
-              <strong>78.706 Views (60%)</strong>
-              <CProgress thin className="mt-2" precision={1} color="warning" value={40} />
-            </CCol>
-            <CCol md sm="12" className="mb-sm-2 mb-0">
-              <div className="text-medium-emphasis">New Users</div>
-              <strong>22.123 Users (80%)</strong>
-              <CProgress thin className="mt-2" precision={1} color="danger" value={40} />
-            </CCol>
-            <CCol md sm="12" className="mb-sm-2 mb-0">
-              <div className="text-medium-emphasis">Bounce Rate</div>
-              <strong>Average Rate (40.15%)</strong>
-              <CProgress thin className="mt-2" precision={1} value={40} />
-            </CCol>
-          </CRow>
-        </CCardFooter>
-      </CCard>
+       </CCard>
 
       <WidgetsBrand withCharts />
 
