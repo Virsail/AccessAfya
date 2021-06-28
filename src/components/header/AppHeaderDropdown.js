@@ -15,66 +15,40 @@ const AppHeaderDropdown = () => {
   return (
     <CDropdown variant="nav-item">
       <CDropdownToggle placement="bottom-end" className="py-0" caret={false}>
-        <CAvatar src="avatars/avatar.jpg" size="md" />
+        <CAvatar src="avatars/avatar1.jpg" size="md" />
       </CDropdownToggle>
       <CDropdownMenu className="pt-0" placement="bottom-end">
-        <CDropdownHeader className="bg-light fw-semibold py-2">Account</CDropdownHeader>
-        <CDropdownItem href="#">
+        <CDropdownHeader className="bg-dark fw-semibold py-2">Account</CDropdownHeader>
+        <CDropdownItem href="https://business.facebook.com/pg/AccessAfya/posts/">
           <CIcon name="cil-bell" className="me-2" />
           Updates
           <CBadge color="info" className="ms-2">
             42
           </CBadge>
         </CDropdownItem>
-        <CDropdownItem href="#">
+        <CDropdownItem href="https://www.accessafya.com/contact">
           <CIcon name="cil-envelope-open" className="me-2" />
           Messages
           <CBadge color="success" className="ms-2">
-            42
+            25
           </CBadge>
         </CDropdownItem>
-        <CDropdownItem href="#">
+        <CDropdownItem href="https://www.nesta.org.uk/feature/innovating-solve-development-challenges/access-afya/">
           <CIcon name="cil-task" className="me-2" />
           Tasks
           <CBadge color="danger" className="ms-2">
-            42
+            54
           </CBadge>
         </CDropdownItem>
-        <CDropdownItem href="#">
+        <CDropdownItem href="https://twitter.com/AccessAfya/status/1385546731580964868">
           <CIcon name="cil-comment-square" className="me-2" />
           Comments
           <CBadge color="warning" className="ms-2">
-            42
+            789
           </CBadge>
         </CDropdownItem>
-        <CDropdownHeader className="bg-light fw-semibold py-2">Settings</CDropdownHeader>
-        <CDropdownItem href="#">
-          <CIcon name="cil-user" className="me-2" />
-          Profile
-        </CDropdownItem>
-        <CDropdownItem href="#">
-          <CIcon name="cil-settings" className="me-2" />
-          Settings
-        </CDropdownItem>
-        <CDropdownItem href="#">
-          <CIcon name="cil-credit-card" className="me-2" />
-          Payments
-          <CBadge color="secondary" className="ms-2">
-            42
-          </CBadge>
-        </CDropdownItem>
-        <CDropdownItem href="#">
-          <CIcon name="cil-file" className="me-2" />
-          Projects
-          <CBadge color="primary" className="ms-2">
-            42
-          </CBadge>
-        </CDropdownItem>
+        <CDropdownHeader className="bg-dark fw-semibold py-2">@Access_Afya._</CDropdownHeader>  
         <CDropdownDivider />
-        <CDropdownItem href="#">
-          <CIcon name="cil-lock-locked" className="me-2" />
-          Lock Account
-        </CDropdownItem>
       </CDropdownMenu>
     </CDropdown>
   )
