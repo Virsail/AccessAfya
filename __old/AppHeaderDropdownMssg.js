@@ -23,7 +23,7 @@ const AppHeaderDropdownMssg = () => {
         <CDropdownItem header tag="div" color="light">
           <strong>You have {itemsCount} messages</strong>
         </CDropdownItem>
-        <CDropdownItem href="#">
+        <CDropdownItem href="/login">
           <div className="message">
             <div className="pt-3 me-3 float-start">
               <CAvatar src={'avatars/7.jpg'} status="success" />

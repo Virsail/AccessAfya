@@ -1,15 +1,12 @@
 import React from 'react'
 import {
-  CBreadcrumb,
-  CBreadcrumbItem,
   CCard,
   CCardBody,
   CCardHeader,
   CCol,
   CRow,
-  CLink,
 } from '@coreui/react'
-import { DocsCallout, Example } from 'src/reusable'
+import { DocsCallout } from 'src/reusable'
 
 const Breadcrumbs = () => {
   return (
@@ -38,35 +35,7 @@ const Breadcrumbs = () => {
               </a>
               .
             </p>
-            <Example href="components/breadcrumb">
-              <CBreadcrumb>
-                <CBreadcrumbItem>
-                  <CLink href="#">Home</CLink>
-                </CBreadcrumbItem>
-                <CBreadcrumbItem active>Library</CBreadcrumbItem>
-              </CBreadcrumb>
-              <CBreadcrumb>
-                <CBreadcrumbItem>
-                  <CLink href="#">Home</CLink>
-                </CBreadcrumbItem>
-                <CBreadcrumbItem>
-                  <CLink href="#">Library</CLink>
-                </CBreadcrumbItem>
-                <CBreadcrumbItem active>Data</CBreadcrumbItem>
-              </CBreadcrumb>
-              <CBreadcrumb>
-                <CBreadcrumbItem>
-                  <CLink href="#">Home</CLink>
-                </CBreadcrumbItem>
-                <CBreadcrumbItem>
-                  <CLink href="#">Library</CLink>
-                </CBreadcrumbItem>
-                <CBreadcrumbItem>
-                  <CLink href="#">Data</CLink>
-                </CBreadcrumbItem>
-                <CBreadcrumbItem active>Bootstrap</CBreadcrumbItem>
-              </CBreadcrumb>
-            </Example>
+
           </CCardBody>
         </CCard>
       </CCol>

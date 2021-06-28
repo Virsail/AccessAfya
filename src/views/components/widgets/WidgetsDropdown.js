@@ -17,27 +17,24 @@ const WidgetsDropdown = () => {
     <CRow>
       <CCol sm="6" lg="3">
         <CWidgetDropdown
-          className="mb-4"
-          color="primary"
-          value="9.823"
-          title="Members online"
+          className="mb-3"
+          color="dark"
+          value="13k"
+          title="Foot fall"
           action={
             <CDropdown alignment="end">
               <CDropdownToggle color="transparent" caret={false} className="p-0">
                 <CIcon name="cil-options" className="text-high-emphasis-inverse" />
               </CDropdownToggle>
               <CDropdownMenu>
-                <CDropdownItem>Action</CDropdownItem>
-                <CDropdownItem>Another action</CDropdownItem>
-                <CDropdownItem>Something else here...</CDropdownItem>
-                <CDropdownItem disabled>Disabled action</CDropdownItem>
+                <CDropdownItem>foot fall</CDropdownItem>
               </CDropdownMenu>
             </CDropdown>
           }
           chart={
             <CChartLine
               className="mt-3 mx-3"
-              style={{ height: '70px' }}
+              style={{ height: '40px' }}
               data={{
                 labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
                 datasets: [
@@ -45,7 +42,6 @@ const WidgetsDropdown = () => {
                     label: 'My First dataset',
                     backgroundColor: 'transparent',
                     borderColor: 'rgba(255,255,255,.55)',
-                    pointBackgroundColor: getStyle('--cui-primary'),
                     data: [65, 59, 84, 84, 51, 55, 40],
                   },
                 ],
@@ -85,7 +81,7 @@ const WidgetsDropdown = () => {
                     tension: 0.4,
                   },
                   point: {
-                    radius: 4,
+                    radius: 0,
                     hitRadius: 10,
                     hoverRadius: 4,
                   },
@@ -97,33 +93,30 @@ const WidgetsDropdown = () => {
       </CCol>
       <CCol sm="6" lg="3">
         <CWidgetDropdown
-          className="mb-4"
-          color="info"
-          value="9.823"
-          title="Members online"
+          className="mb-3"
+          color="dark"
+          value="7.8"
+          title="Patient Satisfaction"
           action={
             <CDropdown alignment="end">
               <CDropdownToggle color="transparent" caret={false} className="p-0">
                 <CIcon name="cil-options" className="text-high-emphasis-inverse" />
               </CDropdownToggle>
               <CDropdownMenu>
-                <CDropdownItem>Action</CDropdownItem>
-                <CDropdownItem>Another action</CDropdownItem>
-                <CDropdownItem>Something else here...</CDropdownItem>
-                <CDropdownItem disabled>Disabled action</CDropdownItem>
+                <CDropdownItem>patient satisfaction</CDropdownItem>
               </CDropdownMenu>
             </CDropdown>
           }
           chart={
             <CChartLine
               className="mt-3 mx-3"
-              style={{ height: '70px' }}
+              style={{ height: '40px' }}
               data={{
                 labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
                 datasets: [
                   {
-                    label: 'My First dataset',
-                    backgroundColor: 'transparent',
+                    label: 'My Second dataset',
+                    backgroundColor: 'rgba(255,255,255,.2)',
                     borderColor: 'rgba(255,255,255,.55)',
                     pointBackgroundColor: getStyle('--cui-info'),
                     data: [1, 18, 9, 17, 34, 22, 11],
@@ -164,7 +157,7 @@ const WidgetsDropdown = () => {
                     borderWidth: 1,
                   },
                   point: {
-                    radius: 4,
+                    radius: 0,
                     hitRadius: 10,
                     hoverRadius: 4,
                   },
@@ -176,32 +169,29 @@ const WidgetsDropdown = () => {
       </CCol>
       <CCol sm="6" lg="3">
         <CWidgetDropdown
-          className="mb-4"
-          color="warning"
-          value="9.823"
-          title="Members online"
+          className="mb-3"
+          color="dark"
+          value="4.2m"
+          title="Revenue"
           action={
             <CDropdown alignment="end">
               <CDropdownToggle color="transparent" caret={false} className="p-0">
                 <CIcon name="cil-options" className="text-high-emphasis-inverse" />
               </CDropdownToggle>
               <CDropdownMenu>
-                <CDropdownItem>Action</CDropdownItem>
-                <CDropdownItem>Another action</CDropdownItem>
-                <CDropdownItem>Something else here...</CDropdownItem>
-                <CDropdownItem disabled>Disabled action</CDropdownItem>
+                <CDropdownItem>revenue</CDropdownItem>
               </CDropdownMenu>
             </CDropdown>
           }
           chart={
             <CChartLine
               className="mt-3"
-              style={{ height: '70px' }}
+              style={{ height: '40px' }}
               data={{
                 labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
                 datasets: [
                   {
-                    label: 'My First dataset',
+                    label: 'My Third dataset',
                     backgroundColor: 'rgba(255,255,255,.2)',
                     borderColor: 'rgba(255,255,255,.55)',
                     data: [78, 81, 80, 45, 34, 12, 40],
@@ -242,27 +232,24 @@ const WidgetsDropdown = () => {
       </CCol>
       <CCol sm="6" lg="3">
         <CWidgetDropdown
-          className="mb-4"
-          color="danger"
-          value="9.823"
-          title="Members online"
+          className="mb-3"
+          color="dark"
+          value="14k"
+          title="Medical Analysis"
           action={
             <CDropdown alignment="end">
               <CDropdownToggle color="transparent" caret={false} className="p-0">
                 <CIcon name="cil-options" className="text-high-emphasis-inverse" />
               </CDropdownToggle>
               <CDropdownMenu>
-                <CDropdownItem>Action</CDropdownItem>
-                <CDropdownItem>Another action</CDropdownItem>
-                <CDropdownItem>Something else here...</CDropdownItem>
-                <CDropdownItem disabled>Disabled action</CDropdownItem>
+                <CDropdownItem>medical analysis</CDropdownItem>
               </CDropdownMenu>
             </CDropdown>
           }
           chart={
             <CChartBar
               className="mt-3 mx-3"
-              style={{ height: '70px' }}
+              style={{ height: '40px' }}
               data={{
                 labels: [
                   'January',
@@ -284,7 +271,7 @@ const WidgetsDropdown = () => {
                 ],
                 datasets: [
                   {
-                    label: 'My First dataset',
+                    label: 'My Fourth dataset',
                     backgroundColor: 'rgba(255,255,255,.2)',
                     borderColor: 'rgba(255,255,255,.55)',
                     data: [78, 81, 80, 45, 34, 12, 40, 85, 65, 23, 12, 98, 34, 84, 67, 82],
