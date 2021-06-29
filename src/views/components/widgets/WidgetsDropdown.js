@@ -30,7 +30,7 @@ const WidgetsDropdown = () => {
                 <CIcon name="cil-options" className="text-high-emphasis-inverse" />
               </CDropdownToggle>
               <CDropdownMenu>
-                <CDropdownItem></CDropdownItem>
+                <CDropdownItem>There was wrong prescrition administered at Kosovo</CDropdownItem>
               </CDropdownMenu>
             </CDropdown>
           }
