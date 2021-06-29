@@ -44,21 +44,19 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 [virsail mbagaya](https://github.com/virsail)  
   
 # Description  
-A django python  web application that allows a user to track what happens in the neighbourhood ,the appliaction allows a user to post an event ,view events and get contacts for the medics and authoririties in the local neighbourhood.
-
+An analytics platform built on React js for UI ,Javascript ,Scss for application styling and GraphQl for api data queries.
 ##  Live Link  
- View App site [View Site]()  
+ View App site [View Site](https://accessafyaplatform.netlify.app/dashboard)  
   
  
 ## User Story  
-As a user I would like to:
-* Sign up with the application and start using it 
-* Set up a profile about me 
-* Find a list of different businesses in my neighborhood
-* Create Posts that will be visible to everyone in my neighborhood.
-* Find Contact Information for the health department and Police authorities near my neighbourhood
-* Change My neighborhood when I decide to move out.
-* Only view details of a single neighborhood.
+A user is able to:
+* View graphical analysis of patient satisfaction,revenue and foot fall 
+* Monitor period or time on the platform
+* See Key issues and the loactions at which issues get reported
+* have a personal account where he or she can see updates,notifications,tasks to be undertaken and comments in general concerning Access Afya as a whole
+* Contact Access Afya (we give the user access to access afya contacts) on the application header
+* Keep track of Staff members ,their efficiency and issues reported on each .
 ## Home Page
 ![Screenshot from 2020-11-04 18-01-36](https://user-images.githubusercontent.com/66640798/98129034-b478af80-1ec9-11eb-9859-ff6f62e4148a.png)
 
