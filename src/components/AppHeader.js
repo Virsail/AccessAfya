@@ -8,7 +8,6 @@ import {
   CHeaderDivider,
   CHeaderNav,
   CHeaderToggler,
-  CProgress,
   CNavLink,
   CNavItem,
 } from '@coreui/react'

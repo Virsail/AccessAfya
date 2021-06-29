@@ -1,5 +1,3 @@
-import React from 'react'
-import CIcon from '@coreui/icons-react'
 import { NavLink } from 'react-router-dom'
 
 const _nav = [
@@ -12,5 +10,5 @@ const _nav = [
       color: 'info'
     },
   },
-],
+]
 export default _nav
