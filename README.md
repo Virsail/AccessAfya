@@ -1,6 +1,28 @@
-# Getting Started with Create React App
+# Access Afya
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[virsail mbagaya](https://github.com/virsail)  
+  
+# Description  
+An analytics platform built on React js for UI ,Javascript ,Scss for application styling and GraphQl for api data queries.
+##  Live Link  
+ View App site [View Site](https://accessafyaplatform.netlify.app/dashboard)  
+  
+ 
+## User Story  
+A user is able to:
+* View graphical analysis of patient satisfaction,revenue and foot fall 
+* Monitor period or time on the platform
+* See Key issues and the loactions at which issues get reported
+* have a personal account where he or she can see updates,notifications,tasks to be undertaken and comments in general concerning Access Afya as a whole
+* Contact Access Afya (we give the user access to access afya contacts) on the application header
+* Keep track of Staff members ,their efficiency and issues reported on each .
+## Dashboard
+![Screenshot from 2021-06-29 13-58-02](https://user-images.githubusercontent.com/66640798/123786390-4c585d00-d8e2-11eb-8c7c-d13cc1ce2cfd.png)
+
+## Staff Members
+![Screenshot from 2021-06-29 14-07-28](https://user-images.githubusercontent.com/66640798/123787454-824a1100-d8e3-11eb-810c-0c6f814c13a4.png)
+
+
 
 ## Available Scripts
 
@@ -38,31 +60,6 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-# neighbourhood
-
-[virsail mbagaya](https://github.com/virsail)  
-  
-# Description  
-An analytics platform built on React js for UI ,Javascript ,Scss for application styling and GraphQl for api data queries.
-##  Live Link  
- View App site [View Site](https://accessafyaplatform.netlify.app/dashboard)  
-  
- 
-## User Story  
-A user is able to:
-* View graphical analysis of patient satisfaction,revenue and foot fall 
-* Monitor period or time on the platform
-* See Key issues and the loactions at which issues get reported
-* have a personal account where he or she can see updates,notifications,tasks to be undertaken and comments in general concerning Access Afya as a whole
-* Contact Access Afya (we give the user access to access afya contacts) on the application header
-* Keep track of Staff members ,their efficiency and issues reported on each .
-## Dashboard
-![Screenshot from 2021-06-29 13-58-02](https://user-images.githubusercontent.com/66640798/123786390-4c585d00-d8e2-11eb-8c7c-d13cc1ce2cfd.png)
-
-## Staff Members
-![Screenshot from 2021-06-29 14-07-28](https://user-images.githubusercontent.com/66640798/123787454-824a1100-d8e3-11eb-810c-0c6f814c13a4.png)
-
 
   
 ## Technology used  
