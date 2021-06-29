@@ -40,7 +40,8 @@
     "lint": "eslint \"src/**/*.js\"",
     "test:cov": "npm test -- --coverage --watchAll=false",
     "test:debug": "react-scripts --inspect-brk test --runInBand",
-    "changelog": "auto-changelog --starting-version 3.0.0 --commit-limit false --hide-credit"
+    "changelog": "auto-changelog --starting-version 3.0.0 --commit-limit false --hide-credit",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
