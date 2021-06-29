@@ -8,6 +8,7 @@ import {
   CHeaderDivider,
   CHeaderNav,
   CHeaderToggler,
+  CProgress,
   CNavLink,
   CNavItem,
 } from '@coreui/react'
@@ -62,6 +63,8 @@ const AppHeader = () => {
         <AppBreadcrumb />
       </CContainer>
     </CHeader>
+
+
 
     
     

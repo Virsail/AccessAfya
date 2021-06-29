@@ -15,26 +15,91 @@ import CIcon from '@coreui/icons-react'
 const WidgetsDropdown = () => {
   return (
     <CRow>
-      <CCol sm="6" lg="3">
+       <h4 id="traffic" className="card-title mb-0">
+                KEY ISSUES
+              </h4>
+<CCol sm="6" lg="3">
         <CWidgetDropdown
           className="mb-3"
           color="dark"
-          value="13k"
-          title="Foot fall"
+          value="Wrong prescription"
+          title="Kosovo"
           action={
             <CDropdown alignment="end">
               <CDropdownToggle color="transparent" caret={false} className="p-0">
                 <CIcon name="cil-options" className="text-high-emphasis-inverse" />
               </CDropdownToggle>
               <CDropdownMenu>
-                <CDropdownItem>foot fall</CDropdownItem>
+                <CDropdownItem></CDropdownItem>
               </CDropdownMenu>
             </CDropdown>
           }
+        />
+      </CCol>
+      <CCol sm="6" lg="3">
+        <CWidgetDropdown
+          className="mb-3"
+          color="dark"
+          value="Opened late"
+          title="Kiambu"
+          action={
+            <CDropdown alignment="end">
+              <CDropdownToggle color="transparent" caret={false} className="p-0">
+                <CIcon name="cil-options" className="text-high-emphasis-inverse" />
+              </CDropdownToggle>
+              <CDropdownMenu>
+                <CDropdownItem></CDropdownItem>
+              </CDropdownMenu>
+            </CDropdown>
+          }
+        />
+      </CCol>
+      <CCol sm="6" lg="3">
+        <CWidgetDropdown
+          className="mb-3"
+          color="dark"
+          value="Bad receipts"
+          title="New York"
+          action={
+            <CDropdown alignment="end">
+              <CDropdownToggle color="transparent" caret={false} className="p-0">
+                <CIcon name="cil-options" className="text-high-emphasis-inverse" />
+              </CDropdownToggle>
+              <CDropdownMenu>
+                <CDropdownItem></CDropdownItem>
+              </CDropdownMenu>
+            </CDropdown>
+          }
+        />
+      </CCol>
+      <CCol sm="6" lg="3">
+        <CWidgetDropdown
+          className="mb-3"
+          color="dark"
+          value="Late Check in"
+          title="Mathare"
+          action={
+            <CDropdown alignment="end">
+              <CDropdownToggle color="transparent" caret={false} className="p-0">
+                <CIcon name="cil-options" className="text-high-emphasis-inverse" />
+              </CDropdownToggle>
+              <CDropdownMenu>
+                <CDropdownItem></CDropdownItem>
+              </CDropdownMenu>
+            </CDropdown>
+          }
+        />
+      </CCol>
+      <CCol sm="6" lg="3">
+        <CWidgetDropdown
+          className="mb-3"
+          color="dark"
+          value="13k"
+          title="Foot fall"
           chart={
             <CChartLine
               className="mt-3 mx-3"
-              style={{ height: '40px' }}
+              style={{ height: '50px' }}
               data={{
                 labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
                 datasets: [
@@ -97,20 +162,10 @@ const WidgetsDropdown = () => {
           color="dark"
           value="7.8"
           title="Patient Satisfaction"
-          action={
-            <CDropdown alignment="end">
-              <CDropdownToggle color="transparent" caret={false} className="p-0">
-                <CIcon name="cil-options" className="text-high-emphasis-inverse" />
-              </CDropdownToggle>
-              <CDropdownMenu>
-                <CDropdownItem>patient satisfaction</CDropdownItem>
-              </CDropdownMenu>
-            </CDropdown>
-          }
           chart={
             <CChartLine
               className="mt-3 mx-3"
-              style={{ height: '40px' }}
+              style={{ height: '50px' }}
               data={{
                 labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
                 datasets: [
@@ -173,20 +228,10 @@ const WidgetsDropdown = () => {
           color="dark"
           value="4.2m"
           title="Revenue"
-          action={
-            <CDropdown alignment="end">
-              <CDropdownToggle color="transparent" caret={false} className="p-0">
-                <CIcon name="cil-options" className="text-high-emphasis-inverse" />
-              </CDropdownToggle>
-              <CDropdownMenu>
-                <CDropdownItem>revenue</CDropdownItem>
-              </CDropdownMenu>
-            </CDropdown>
-          }
           chart={
             <CChartLine
               className="mt-3"
-              style={{ height: '40px' }}
+              style={{ height: '50px' }}
               data={{
                 labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
                 datasets: [
@@ -236,20 +281,10 @@ const WidgetsDropdown = () => {
           color="dark"
           value="14k"
           title="Medical Analysis"
-          action={
-            <CDropdown alignment="end">
-              <CDropdownToggle color="transparent" caret={false} className="p-0">
-                <CIcon name="cil-options" className="text-high-emphasis-inverse" />
-              </CDropdownToggle>
-              <CDropdownMenu>
-                <CDropdownItem>medical analysis</CDropdownItem>
-              </CDropdownMenu>
-            </CDropdown>
-          }
           chart={
             <CChartBar
               className="mt-3 mx-3"
-              style={{ height: '40px' }}
+              style={{ height: '50px' }}
               data={{
                 labels: [
                   'January',
@@ -313,6 +348,9 @@ const WidgetsDropdown = () => {
         />
       </CCol>
     </CRow>
+
+
+
   )
 }
 
