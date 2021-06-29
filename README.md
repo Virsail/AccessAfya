@@ -5,7 +5,7 @@
 # Description  
 An analytics platform built on React js for UI ,Javascript ,Scss for application styling and GraphQl for api data queries.
 ##  Live Link  
- View App site [View Site](https://accessafyaplatform.netlify.app/dashboard)  
+ View App site [View Site](https://accessafyaplatform.netlify.app)  
   
  
 ## User Story  
