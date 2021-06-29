@@ -48,7 +48,7 @@ const WidgetsDropdown = () => {
                 <CIcon name="cil-options" className="text-high-emphasis-inverse" />
               </CDropdownToggle>
               <CDropdownMenu>
-                <CDropdownItem></CDropdownItem>
+                <CDropdownItem>Late opening reported in Kiambu</CDropdownItem>
               </CDropdownMenu>
             </CDropdown>
           }
@@ -66,7 +66,7 @@ const WidgetsDropdown = () => {
                 <CIcon name="cil-options" className="text-high-emphasis-inverse" />
               </CDropdownToggle>
               <CDropdownMenu>
-                <CDropdownItem></CDropdownItem>
+                <CDropdownItem>Bad receipts given in New York</CDropdownItem>
               </CDropdownMenu>
             </CDropdown>
           }
@@ -84,7 +84,7 @@ const WidgetsDropdown = () => {
                 <CIcon name="cil-options" className="text-high-emphasis-inverse" />
               </CDropdownToggle>
               <CDropdownMenu>
-                <CDropdownItem></CDropdownItem>
+                <CDropdownItem>Late check in reported in Mathare</CDropdownItem>
               </CDropdownMenu>
             </CDropdown>
           }
