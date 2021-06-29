@@ -117,7 +117,7 @@ const Dashboard = () => {
                   </CTableRow>
                   <CTableRow>
                     <CTableDataCell className="text-center">
-                      <CAvatar size="md" src="avatars/9.jpg" status="danger" />
+                      <CAvatar size="md" src="avatars/kenedy.jpg" status="danger" />
                     </CTableDataCell>
                     <CTableDataCell>
                       <div>Kennedy Ayako</div>
