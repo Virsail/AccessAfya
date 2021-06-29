@@ -57,8 +57,8 @@ A user is able to:
 * have a personal account where he or she can see updates,notifications,tasks to be undertaken and comments in general concerning Access Afya as a whole
 * Contact Access Afya (we give the user access to access afya contacts) on the application header
 * Keep track of Staff members ,their efficiency and issues reported on each .
-## Home Page
-![Screenshot from 2020-11-04 18-01-36](https://user-images.githubusercontent.com/66640798/98129034-b478af80-1ec9-11eb-9859-ff6f62e4148a.png)
+## Dashboard
+![Screenshot from 2021-06-29 13-58-02](https://user-images.githubusercontent.com/66640798/123786390-4c585d00-d8e2-11eb-8c7c-d13cc1ce2cfd.png)
 
 ## User account creation
 ![Screenshot from 2020-11-04 18-31-37](https://user-images.githubusercontent.com/66640798/98131182-176b4600-1ecc-11eb-9312-381b2f918574.png)
