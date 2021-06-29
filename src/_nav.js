@@ -12,5 +12,5 @@ const _nav = [
       color: 'info'
     },
   },
-]
+],
 export default _nav
