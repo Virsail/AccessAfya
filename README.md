@@ -60,50 +60,10 @@ A user is able to:
 ## Dashboard
 ![Screenshot from 2021-06-29 13-58-02](https://user-images.githubusercontent.com/66640798/123786390-4c585d00-d8e2-11eb-8c7c-d13cc1ce2cfd.png)
 
-## User account creation
-![Screenshot from 2020-11-04 18-31-37](https://user-images.githubusercontent.com/66640798/98131182-176b4600-1ecc-11eb-9312-381b2f918574.png)
-## Business Search results
+## Staff Members
+![Screenshot from 2021-06-29 14-07-28](https://user-images.githubusercontent.com/66640798/123787454-824a1100-d8e3-11eb-810c-0c6f814c13a4.png)
 
-![Screenshot from 2020-11-04 18-35-33](https://user-images.githubusercontent.com/66640798/98131786-ad9f6c00-1ecc-11eb-8ce9-a807a03e9cb7.png)
-## Setup and Installation  
-Clone the repository from github 
-##### Cloning the repository:  
- ``` git clone 
- https://github.com/Virsail/neighbourhood.git
-```
-##### Navigate into the folder and install requirements  
- ```bash 
-cd neighbourhood then pip install -r requirements.txt 
-```
-##### Install and activate Virtual  
- ```bash 
-- python3 -m venv virtual - source virtual/bin/activate  
-```  
 
- ##### Setup Database  
-  SetUp your database User,Password, Host then make migrate  
- ```bash 
-python manage.py makemigrations insta
- ``` 
- Now Migrate  
- ```bash 
- python manage.py migrate 
-```
-##### Run the application  
- ```bash 
- python manage.py runserver 
-``` 
-##### debug your model classes
-```
-python3.8 manage.py check 
-this is the fastest way to debug/check your model classes
-```
-##### Testing the application  
- ```bash 
- python manage.py test 
-```
-Open the application on your browser `127.0.0.1:8000`.  
-  
   
 ## Technology used  
   
