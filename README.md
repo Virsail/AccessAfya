@@ -63,20 +63,19 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
   
 ## Technology used  
-  
-* [Python3.8](https://www.python.org/)  
-* [Django 1.11.7](https://docs.djangoproject.com/en/2.2/)  
-* [Heroku](https://heroku.com)  
+* NETLIFY(Deployment)
 * HTML
-* CSS
+* SCSS
+* REACT JS
 * JS
+* GRAPHQL
   
   
 ## Contact Information   
-ericmbagaya@gmail.com 
+virsaileric@gmail.com
   
 
 ### License
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) 
-* Copyright (c) 2020 **Virsail Mbagaya**
+* Copyright (c) 2021 **Virsail Mbagaya**
 
